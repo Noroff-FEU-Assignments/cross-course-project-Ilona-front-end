@@ -1,3 +1,12 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #a61731;
+  color: black;
+}
+
 body {
   background-color: #d2d3d9;
   color: #a61731;
