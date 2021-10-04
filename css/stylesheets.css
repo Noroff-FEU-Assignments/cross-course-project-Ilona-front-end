@@ -28,10 +28,27 @@ body {
   color: blanchedalmond;
 }
 
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  background-color: white;
+  margin: 0 4px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #d68c9d;
+  color: white;
+}
+
 .container1 {
   background-image: url("/images/Homepage\ picture.jpg");
   background-size: cover;
-  height: 900px;
+  height: 700px;
 }
 
 .block {
