@@ -18,9 +18,18 @@ body {
 
 .header ul li {
   display: inline-block;
+  margin-right: 50px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header ul li a {
   text-decoration: none;
   color: blanchedalmond;
+}
+
+.container1 {
+  background-image: url("/images/Homepage\ picture.jpg");
+  background-size: cover;
+  height: 900px;
 }
