@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-.header {
+.nav {
   width: 100%;
   position: relative;
   display: flex;
@@ -14,13 +14,13 @@ body {
   color: blanchedalmond;
 }
 
-.header ul {
+.nav ul {
   list-style-type: none;
   text-align: center;
   width: 1080px;
 }
 
-.header ul li {
+.nav ul li {
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
@@ -28,14 +28,14 @@ body {
   /* margin-right: 50px; */
 }
 
-.header ul li a {
+.nav ul li a {
   text-decoration: none;
   color: blanchedalmond;
   /* display: inline-block; */
   padding: 5px 50px;
 }
 
-.header ul li a:hover {
+.nav ul li a:hover {
   color: #d68c9d;
   /* background-color: transparent; */
   text-decoration: underline;
@@ -45,8 +45,10 @@ body {
 .logo-pic {
   position: absolute;
   left: 50%;
-  margin-top: 4px;
+  margin-top: 2px;
 }
+
+/* button has to be moved to new page made for log in 
 .button {
   padding: 8px 16px;
   border-radius: 8px;
@@ -63,6 +65,8 @@ body {
   background-color: #d68c9d;
   color: white;
 }
+
+*/
 
 .container1 {
   background-image: url("/images/Homepage\ picture.jpg");
