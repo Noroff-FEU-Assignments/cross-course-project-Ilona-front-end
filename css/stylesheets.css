@@ -6,6 +6,8 @@ body {
 }
 
 .header {
+  width: 100%;
+  position: relative;
   display: flex;
   justify-content: space-between;
   background-color: #a61731;
@@ -14,20 +16,37 @@ body {
 
 .header ul {
   list-style-type: none;
+  text-align: center;
+  width: 1080px;
 }
 
 .header ul li {
-  display: inline-block;
-  margin-right: 50px;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  float: left;
+  /* margin-right: 50px; */
 }
 
 .header ul li a {
   text-decoration: none;
   color: blanchedalmond;
+  /* display: inline-block; */
+  padding: 5px 50px;
 }
 
+.header ul li a:hover {
+  color: #d68c9d;
+  /* background-color: transparent; */
+  text-decoration: underline;
+  /* text-transform: uppercase; */
+}
+
+.logo-pic {
+  position: absolute;
+  left: 50%;
+  margin-top: 4px;
+}
 .button {
   padding: 8px 16px;
   border-radius: 8px;
