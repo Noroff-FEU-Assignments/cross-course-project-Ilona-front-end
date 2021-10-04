@@ -1,14 +1,26 @@
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #a61731;
-  color: white;
-}
-
 body {
   background-color: #d2d3d9;
   color: #a61731;
-  margin: 16px 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a61731;
+  color: blanchedalmond;
+}
+
+.header ul {
+  list-style-type: none;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: blanchedalmond;
 }
