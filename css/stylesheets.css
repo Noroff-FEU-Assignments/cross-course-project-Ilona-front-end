@@ -1,6 +1,6 @@
 body {
   background-color: #d2d3d9;
-  color: #a61731;
+  color: #17343f;
   margin: 0;
   padding: 0;
 }
@@ -32,4 +32,13 @@ body {
   background-image: url("/images/Homepage\ picture.jpg");
   background-size: cover;
   height: 900px;
+}
+
+.block {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.footer {
+  color: #17343f;
 }
