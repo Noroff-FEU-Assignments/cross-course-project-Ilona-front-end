@@ -52,6 +52,7 @@ body {
 .button {
   border-radius: 6px;
   font-size: 16px;
+  font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
   margin: 15px 15px;
@@ -77,6 +78,5 @@ body {
 .footer {
   color: #17343f;
   margin: 20px 20px;
-  background-color: ;
   background-color: #c8c9cf;
 }
