@@ -1,0 +1,82 @@
+body {
+  background-color: #d2d3d9;
+  color: #17343f;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #a61731;
+  color: blanchedalmond;
+}
+
+.nav ul {
+  list-style-type: none;
+  text-align: center;
+  width: 1080px;
+}
+
+.nav ul li {
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  float: left;
+  /* margin-right: 50px; */
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: blanchedalmond;
+  /* display: inline-block; */
+  padding: 5px 50px;
+}
+
+.nav ul li a:hover {
+  color: #d68c9d;
+  /* background-color: transparent; */
+  text-decoration: underline;
+  /* text-transform: uppercase; */
+}
+
+.logo-pic {
+  position: absolute;
+  left: 50%;
+  margin-top: 2px;
+}
+
+/* button has to be moved to new page made for log in  */
+.button {
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  margin: 15px 15px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #d68c9d;
+  color: white;
+}
+
+.container1 {
+  background-image: url("/images/Homepage\ picture.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.block {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.footer {
+  color: #17343f;
+  margin: 20px 20px;
+  background-color: #c8c9cf;
+}
